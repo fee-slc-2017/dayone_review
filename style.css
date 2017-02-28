@@ -1,0 +1,24 @@
+h2#endcaps {
+  background-color:violet;
+}
+
+h2 {
+  background-color: darkgoldenrod;
+}
+
+.pencils {
+    background-color: grey;
+}
+
+h2.pencils {
+  background-color: darkslategrey;
+}
+
+#one {
+  background-color: hsla(180, 50%, 50%, 0.9);
+  color: rgba(255,0,0, 0.5);
+}
+
+#two {
+  background-color: #123abc;
+}

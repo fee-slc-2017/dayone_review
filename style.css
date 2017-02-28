@@ -1,3 +1,6 @@
+body {
+  font-size: 14px;
+}
 h2#endcaps {
   background-color:violet;
 }
@@ -18,7 +21,47 @@ h2.pencils {
   background-color: hsla(180, 50%, 50%, 0.9);
   color: rgba(255,0,0, 0.5);
 }
+#one p {
+  background-color: white;
+}
+
+ img {
+  width: 200px;
+  height: auto;
+}
 
 #two {
   background-color: #123abc;
+}
+
+#two h2 {
+  background-color: maroon;
+}
+
+a {
+  padding: 0.25em;
+  margin: 0.25em;
+  border: 1px solid limegreen;
+}
+
+a:visited {
+  background-color: green;
+}
+
+a:hover {
+  background-color: white;
+  color: red;
+}
+
+a:focus {
+  background-color: navy;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+.tasty {
+  background-color: orange;
+  width: 200%;
 }
